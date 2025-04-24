@@ -6,7 +6,7 @@ function Login({isAuthenticated, setIsAuthenticated}){
         <>
             Login
             <button onClick={() => setIsAuthenticated(!isAuthenticated)}>
-        {isAuthenticated ? "Log out" : "Log in"}
+        {isAuthenticated ? "Log Out" : "Log In"}
       </button>
         </>
     )
